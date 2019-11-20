@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<script type="text/javascript" src="lib/js/video.min.js"></script>
+		<script type="text/javascript" src="lib/js/videojs-contrib-hls.js"></script>
+		<script type="text/javascript" src="lib/js/videojs-contrib-hls.min.js"></script>
+	</head>
+	<body>
+		<video id="player1" class="cctvBox">
+			<source src="video/test.m3u8" type="application/x-mpegURL"/>
+		</video>
+		<script type="text/javascript">
+		     var player = videojs('player1');
+		     player.play();
+		</script>
+	</body>
+</html>
